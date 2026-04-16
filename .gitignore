@@ -1,0 +1,13 @@
+# UiPath local settings
+.local/
+
+# Project metadata
+.project/
+.settings/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

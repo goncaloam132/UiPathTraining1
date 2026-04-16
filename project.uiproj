@@ -1,0 +1,6 @@
+{
+  "Name": "Primeiro Processo no Studio",
+  "ProjectType": "Process",
+  "Description": "Primeiro processo simples no studio",
+  "MainFile": "Main.xaml"
+}
