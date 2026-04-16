@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UvJukZZMPkqtv8OhNM0Jsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/first-automation/vendor" DesignTimeRectangle="655, 357, 22, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='submitButton' tag='I' /&gt;" Guid="99c40030-aad5-4e10-8a7a-544a5c821bfb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8a5917ee7463a3f51add946018090b8d.jpg" xmlns="">0bFhSLImrxkGRowsgqT5YMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

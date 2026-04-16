@@ -9,7 +9,8 @@
     "UiPath.GSuite.Activities": "[3.8.10]",
     "UiPath.Mail.Activities": "[2.8.10]",
     "UiPath.MicrosoftOffice365.Activities": "[3.8.11]",
-    "UiPath.System.Activities": "[26.2.4]"
+    "UiPath.System.Activities": "[26.2.4]",
+    "UiPath.UIAutomation.Activities": "[25.10.28]"
   },
   "webServices": [],
   "entitiesStores": [],

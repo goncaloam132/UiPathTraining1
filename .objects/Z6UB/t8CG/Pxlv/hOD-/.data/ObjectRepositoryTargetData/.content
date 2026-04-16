@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y2NEXzfUIU-Cm5EB2Uo90w" Reference="9LpYgMmQJEqvtujUcICl5A/hOD-kNnmHEeamprsgq87RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/first-automation" DesignTimeRectangle="575, 248, 77, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Part 2' tag='A' /&gt;" Guid="6eaffbd5-7472-4ae4-beb7-c7d279037a89" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAfCAYAAACf3SEqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ8SURBVGhD7Zg9bsIwFMczMHRkZOjSMRJLRw7QpWPHSAwI9QAoIzdAOQLqASq1Q6UwIMHIyAgDUq7AyNDhVXEMtt+zE9KYClz/pf8Sfzz7l+ePJACvxgrwA6/68hAt6DyIhz1slh/w8V7i5Qb2B9zwf6ga4jaBXiuAIDjDrR4kW9yB+6qEmA40sMo8SHEXzqsCYgZJVwLU7kDnXuO2VKebQIa7cVy1IEZfuJzrK/IQmb73sH4bw/B1KPkFHu8ExIcnuUzy04OAePcIL6h8/LaG/bcS1ylxiAdIB226v1l0e5CCq4c3h5jCUDNxux6Cq0fOCWJEJm3bkYfY3B6iBTsPcQ1TfOJa9xTWODoTuotKDif4ssRftvYaVZIIff76dgmEuExXDwu1w+OquCf+hQqI9A5aQJEHnE1CCPoRe66vH0Ky0z2nEzfHReIARb2iP7kdh7iAGH+FaBzPRUNF85jUpY5hgdsxmSdTQDtmh6iX9nVZY4LI+yHZa44rS9dWHVfNPdEYUP5iMdq0J5onowyWZQTvg8XD/V0Gok74JdaD+Ck6UvR5AYhoGakDL9qoS9QEseFyxmLjUuPUghi0QngmB8YzhGf9KiuHSOvLE6f7EM0u8xwowFy/gMhfLO6vHsRGLodYNhkGjPRXWN3w1Qxh2dsgriIDwFw3AFG3dMVzscQpxFMdsh+KMnNcSXzPN9W9foiaPegk5YDRQZTueOQ0r4h7FLniUF3BD4jyybAlqc2kXPKhYYCYi2eSms3lcY8qtgSNpTGdLturUYdWtOjOaCVG5pikL5YDZLMEYnL6NnUMySxz9l9iriv47Lt9eYgW5CFakIdoQR6iBf0AI7u2fhLk1PoAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.None]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="468, 165, 1000, 40" ElementType="Text" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='' aaname='Welcome to First Automation!' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Welcome to First Automation!' /&gt;" Guid="11aae7c8-9d93-4272-ad63-8d212a5991c6" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="38" Y="16" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5aa1ba9e1539e3c0ad6d33047f8a43ea.jpg" xmlns="">0Iaxm9N0_sU6WUerO06Af8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
