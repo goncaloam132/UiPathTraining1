@@ -260,11 +260,7 @@
                             <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1013" sap2010:WorkflowViewState.IdRef="Sequence_22">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="DiscountValue" />
-                                <Variable x:TypeArguments="x:String" Name="Signature">
-                                  <Variable.Default>
-                                    <Literal x:TypeArguments="x:String">GoncaloAmorim, goncaloamorim132@gmail.com</Literal>
-                                  </Variable.Default>
-                                </Variable>
+                                <Variable x:TypeArguments="x:String" Default="GoncaloAmorim, goncaloamorim132@gmail.com" Name="Signature" />
                               </Sequence.Variables>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -299,6 +295,9 @@
                                 </uix:NTypeInto.Target>
                                 <uix:NTypeInto.VerifyOptions>
                                   <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
                                     <uix:VerifyExecutionTypeIntoOptions.Timeout>
                                       <InArgument x:TypeArguments="x:Double" />
                                     </uix:VerifyExecutionTypeIntoOptions.Timeout>
@@ -310,7 +309,7 @@
                                   <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/first-automation/vendor" ContentHash="UvJukZZMPkqtv8OhNM0Jsg" DesignTimeRectangle="655, 357, 22, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='submitButton' tag='I' /&gt;" Guid="99c40030-aad5-4e10-8a7a-544a5c821bfb" InformativeScreenshot="8a5917ee7463a3f51add946018090b8d.jpg" Reference="9LpYgMmQJEqvtujUcICl5A/r4qSGmjEPECgBIcZQyLUTw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                 </uix:NClick.Target>
                               </uix:NClick>
-                              <uix:NGetText DisplayName="Get Text '$120'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="b2999f29-eca9-4f1c-a640-5ef96cf885ae" TextString="[DiscountValue]" Version="V5">
+                              <uix:NGetText DisplayName="Get Text 'Discount'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="b2999f29-eca9-4f1c-a640-5ef96cf885ae" TextString="[DiscountValue]" Version="V5">
                                 <uix:NGetText.Target>
                                   <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/first-automation/vendor" ContentHash="g2NnDtLuAkisUXNqTuxd2A" DesignTimeRectangle="468, 476, 399, 117" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='discount' tag='H2' /&gt;" Guid="65634724-de95-4a7f-913c-6a767a8aa434" InformativeScreenshot="5c59ac3be911b771748339f4859c841a.jpg" Reference="9LpYgMmQJEqvtujUcICl5A/Ujz10C4iE06ZSwvJ8AW0VA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                 </uix:NGetText.Target>
